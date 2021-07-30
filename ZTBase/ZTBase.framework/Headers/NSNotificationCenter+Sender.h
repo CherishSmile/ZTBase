@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <NSNotification+Sender.h>
+#import "NSNotification+Sender.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
