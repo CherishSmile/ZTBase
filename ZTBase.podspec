@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTBase'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'ZTBase is the public base library for ZTBaseKit.'
   s.homepage         = 'https://github.com/CherishSmile/ZTBase'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -23,6 +23,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ZTBase/ZTBase.framework/Headers/*.{h}'
   s.vendored_frameworks = 'ZTBase/ZTBase.framework'
-  s.public_header_files = 'ZTBase/ZTBase.framework/Headers/*.{h}'
   
 end
